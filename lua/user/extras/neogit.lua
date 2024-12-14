@@ -9,7 +9,6 @@ local M = {
 }
 
 function M.config()
-  -- local icons = require("user.icons")
   local wk = require("which-key")
   wk.add({
     { "<leader>gg", "<cmd>Neogit<CR>", desc = "NG: Neogit" },
@@ -36,12 +35,6 @@ function M.config()
       item = { ">", "v" },
       section = { ">", "v" },
     },
-    -- signs = {
-    --   -- { CLOSED, OPENED }
-    --   section = { icons.ui.ChevronRight, icons.ui.ChevronShortDown },
-    --   item = { icons.ui.ChevronRight, icons.ui.ChevronShortDown },
-    --   hunk = { "", "" },
-    -- },
     integrations = {
       -- If enabled, use telescope for menu selection rather than vim.ui.select.
       -- Allows multi-select and some things that vim.ui.select doesn't.
