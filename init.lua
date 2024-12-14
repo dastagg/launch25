@@ -32,4 +32,5 @@ spec("user.extras.nvim-surround") -- Add/delete/change surrounding pairs
 -- NOTE: Following are "development extras".
 spec("user.extras.gitsigns") -- show changes in sidebar
 spec("user.extras.neogit") -- "magit" like git interface
+spec("user.extras.project") -- provide project management
 require("user.lazy")
