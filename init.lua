@@ -36,4 +36,5 @@ spec("user.extras.gitsigns") -- show changes in sidebar
 spec("user.extras.neogit") -- "magit" like git interface
 spec("user.extras.project") -- provide project management
 spec("user.extras.code-runner") -- run code on the fly
+spec("user.extras.neotest") -- test code on the fly
 require("user.lazy")
