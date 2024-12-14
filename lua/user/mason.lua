@@ -22,8 +22,6 @@ function M.config()
     "stylua",
     -- Python,
     "ruff",
-    "isort",
-    "black",
     "debugpy",
     -- Go
     "golangci-lint",

@@ -1,3 +1,5 @@
+-- WARN: Must manually install python-lsp-ruff in Mason pylsp venv.
+
 require("user.launch")
 require("user.options")
 require("user.keymaps")
