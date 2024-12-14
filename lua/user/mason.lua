@@ -21,6 +21,7 @@ function M.config()
     -- Lua,
     "stylua",
     -- Python,
+    "ruff",
     "isort",
     "black",
     "debugpy",
