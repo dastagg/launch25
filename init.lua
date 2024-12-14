@@ -17,6 +17,7 @@ spec("user.conform")
 spec("user.nvim-lint")
 spec("user.nvim-tree")
 spec("user.lualine")
+spec("user.toggleterm")
 -- Up to this point, this would be a basic dev config.
 -- NOTE: Following are "ui extras".
 spec("user.extras.comment") -- comment lines with "<Space> /"
