@@ -18,7 +18,10 @@ spec("user.nvim-lint")
 spec("user.nvim-tree")
 spec("user.lualine")
 spec("user.toggleterm")
+spec("user.dap")
 -- Up to this point, this would be a basic dev config.
+-- This includes lsp and debugging configs.
+
 -- NOTE: Following are "ui extras".
 spec("user.extras.comment") -- comment lines with "<Space> /"
 spec("user.extras.todo-comments") -- makes comments 'Light Up'
