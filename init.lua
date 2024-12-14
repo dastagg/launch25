@@ -30,6 +30,7 @@ spec("user.extras.autopairs") -- auto create the other half of the pair of {}, (
 spec("user.extras.neotab") -- tab in and out of {}, (), [] and more
 spec("user.extras.nvim-surround") -- Add/delete/change surrounding pairs
 spec("user.extras.colorizer") -- color highlighter for "#xxxxxx" colors
+spec("user.extras.ufo") -- folding code
 -- NOTE: Following are "development extras".
 spec("user.extras.gitsigns") -- show changes in sidebar
 spec("user.extras.neogit") -- "magit" like git interface
