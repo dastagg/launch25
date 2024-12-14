@@ -24,4 +24,5 @@ spec("user.extras.todo-comments") -- makes comments 'Light Up'
 spec("user.extras.navic-bread") -- provide context about code in winbar
 -- NOTE: Following are "development extras".
 spec("user.extras.gitsigns") -- show changes in sidebar
+spec("user.extras.neogit") -- magit like git interface
 require("user.lazy")
