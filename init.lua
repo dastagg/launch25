@@ -1,5 +1,3 @@
--- WARN: Must manually install python-lsp-ruff in Mason pylsp venv.
-
 require("user.launch")
 require("user.options")
 require("user.keymaps")
@@ -20,3 +18,5 @@ spec("user.nvim-tree")
 spec("user.lualine")
 -- To this point would be a well functioning config.
 require("user.lazy")
+
+-- WARN: Must manually install python-lsp-ruff in Mason pylsp venv.

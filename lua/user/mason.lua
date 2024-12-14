@@ -19,6 +19,7 @@ function M.config()
   local tools = {
     -- linter, formatter, other tools, dap
     -- Lua,
+    "luacheck",
     "stylua",
     -- Python,
     "ruff",
