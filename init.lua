@@ -26,5 +26,5 @@ spec("user.extras.indent-blankline") -- provide indentation lines for code; inte
 spec("user.extras.rainbow-delimiters") -- alternating syntax highlighting
 -- NOTE: Following are "development extras".
 spec("user.extras.gitsigns") -- show changes in sidebar
-spec("user.extras.neogit") -- magit like git interface
+spec("user.extras.neogit") -- "magit" like git interface
 require("user.lazy")
