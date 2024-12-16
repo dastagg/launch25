@@ -19,8 +19,8 @@ spec("user.nvim-tree")
 spec("user.lualine")
 spec("user.toggleterm")
 spec("user.dap")
--- Up to this point, this would be a basic dev config.
--- This includes lsp and debugging configs.
+-- Up to this point, this would be a good, basic dev config.
+-- This includes lsp and debugging configs for python and golang.
 
 -- NOTE: Following are "ui extras".
 spec("user.extras.comment") -- comment lines with "<Space> /"
@@ -41,4 +41,7 @@ spec("user.extras.project") -- provide project management
 spec("user.extras.code-runner") -- run code on the fly
 spec("user.extras.neotest") -- test code on the fly
 spec("user.extras.neogen") -- generate annotations (doc strings, etc)
+-- NOTE: Following are experimental plugins
+spec("user.extras.hardtime") -- learn vim motions... or have a "Hardtime"
+
 require("user.lazy")
