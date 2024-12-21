@@ -8,6 +8,7 @@ local M = {
 M.config = function()
   local wk = require("which-key")
   wk.add({
+    { "<leader>r", group = "Code Runner" },
     { "<leader>rf", "<cmd>RunFile toggleterm<cr>", desc = "Run File" },
     { "<leader>rr", "<cmd>RunCode<cr>", desc = "Run Code" },
   })
