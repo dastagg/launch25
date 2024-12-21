@@ -40,6 +40,13 @@ local M = {
     {
       "hrsh7th/cmp-nvim-lua",
     },
+    {
+      "zbirenbaum/copilot-cmp",
+      event = "InsertEnter",
+      config = function()
+        require("copilot_cmp").setup()
+      end,
+    },
   },
 }
 
