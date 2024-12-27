@@ -49,6 +49,6 @@ spec("user.extras.neogen") -- generate annotations (doc strings, etc)
 -- WARN: disable hardtime before running debugging.
 
 -- spec("user.extras.hardtime") -- learn vim motions... or have a "Hardtime"
--- spec("user.extras.copilot") -- Microsoft's Copilot
+-- spec("user.extras.copilot") -- Github Copilot
 
 require("user.lazy")
