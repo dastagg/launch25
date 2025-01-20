@@ -8,7 +8,7 @@ M.config = function()
   local wk = require("which-key")
   wk.add({
     { "<leader>n", group = "Neogen" },
-    { "<leader>nf", "<cmd>lua require('neogen').generate()<CR><cmd>", desc = "Create Docstring" },
+    { "<leader>nf", "<cmd>lua require('neogen').generate()<CR>", desc = "Create Docstring" },
   })
 
   require("neogen").setup({})
