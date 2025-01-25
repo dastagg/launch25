@@ -82,6 +82,7 @@ function M.config()
     "html",
     "cssls",
     "ts_ls",
+    "clangd",
   }
 
   local default_diagnostic_config = {

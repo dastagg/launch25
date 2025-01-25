@@ -14,6 +14,7 @@ function M.config()
     "pylsp",
     "cssls",
     "ts_ls",
+    "clangd",
   }
 
   local tools = {
@@ -39,6 +40,8 @@ function M.config()
     -- HTML, CSS, Javascript
     "prettier",
     "eslint_d",
+    -- Clang
+    "clang-format",
   }
 
   require("mason").setup({
