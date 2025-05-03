@@ -43,6 +43,7 @@ spec("user.extras.project") -- provide project management
 spec("user.extras.code-runner") -- run code on the fly
 spec("user.extras.neotest") -- test code on the fly
 spec("user.extras.neogen") -- generate annotations (doc strings, etc)
+spec("user.extras.uv") -- use the python uv package manager
 
 -- NOTE: Following are experimental plugins
 
